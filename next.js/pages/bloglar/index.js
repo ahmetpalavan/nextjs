@@ -2,6 +2,8 @@
 
 export default function Bloglar() {
   return (
-    <div>Bloglar</div>
+    <div>
+      <h1>Bloglar</h1>
+    </div>
   )
 }
