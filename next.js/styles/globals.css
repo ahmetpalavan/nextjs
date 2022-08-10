@@ -6,15 +6,19 @@ body {
 }
 
 a {
+  
   color: #333;
   text-decoration: none;
 }
 
 .content {
+  
   max-width: 1500px;
   margin: 0 auto;
 }
 nav{
+  
+  text-decoration: underline;
   margin: 10px 100px 80px;
   padding: 10px 0;
   display: flex;
@@ -23,6 +27,8 @@ nav{
   border-bottom: 1px #ddd;
 }
 nav a{
+  margin-top:5%;
+  text-decoration: underline;
   margin-left: 12px;
   color: red;
 }
@@ -31,6 +37,7 @@ nav a:hover{
   font-size: larger;
 }
 nav .logo{
+  
   margin-right: auto;
   cursor: pointer;
   background-color: green;
@@ -43,8 +50,23 @@ nav .logo{
 } */
 nav .main{
   width: 1500px;
-  
+  text-decoration: underline;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+nav .li{
+  margin-top:2%;
+  text-decoration: underline;
+  
+}
+
+.not-found{
+  text-align: center;
+}
+
+.not-found a{
+  color: #b33933;
+  text-decoration:underline;
 }

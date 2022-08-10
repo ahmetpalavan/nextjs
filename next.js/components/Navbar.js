@@ -9,7 +9,7 @@ export default function Navbar() {
             <div className='li'>
             <Link href='/'><a>Anasayfa</a></Link>
             <Link href='hakkimizda'><a>Hakkımızda</a></Link>
-            <Link href='bloglar'><a>Blog Listesi</a></Link>
+            <Link href='bloglar'><a className='ahmet'>Blog Listesi</a></Link>
             </div>  
             </div>
         </nav>
