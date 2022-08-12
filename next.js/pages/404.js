@@ -8,7 +8,7 @@ export default function NotFound() {
         setTimeout(()=>{
             // router.push('/')
             router.back()
-        },100000000000000000)
+        },1000)
     },[])
     return (
         <div className='not-found' >
