@@ -8,12 +8,12 @@ export default function Navbar() {
         <nav>
             <div className='main'>
             <div className='logo'>
-                <Image src="/duvar-resimleri-sevimli-kurbaga.jpg.jpg" width={128} height={77} />
+                <Image src="/duvar-resimleri-sevimli-kurbaga.jpg.jpg" width={128} height={95} />
             </div>
-            <div className='li'>
-            <Link href='/'><a><HomeIcon fontSize='large'/>Anasayfa</a></Link>
-            <Link href='hakkimizda'><a><InfoIcon fontSize='large'/>Hakkımızda</a></Link>
-            <Link href='bloglar'><a><ListIcon fontSize='large'/>Blog Listesi</a></Link>
+            <div className='li' style={{marginTop:20}}>
+            <Link href='/'><a><HomeIcon />Anasayfa</a></Link>
+            <Link href='hakkimizda'><a><InfoIcon />Hakkımızda</a></Link>
+            <Link href='bloglar'><a><ListIcon />Blog Listesi</a></Link>
             </div>  
             </div>
         </nav>
